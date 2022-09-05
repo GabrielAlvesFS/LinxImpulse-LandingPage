@@ -31,7 +31,7 @@ export const HelpTextContainer = styled.div`
 `
 export const HelpFormContainer = styled.form`
   width: 100%;
-  height: 500px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 1rem;
