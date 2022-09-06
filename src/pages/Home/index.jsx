@@ -3,6 +3,7 @@ import { HelpSection } from '../../components/HelpSection';
 import { Divider } from '../../components/Divider';
 import { Products } from '../../components/Products';
 import { ShareSection } from '../../components/ShareSection';
+import { Footer } from '../../components/Footer';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Products />
       <Divider>Compartilhe a novidade</Divider>
       <ShareSection />
+      <Footer />
     </>
   );
 }
