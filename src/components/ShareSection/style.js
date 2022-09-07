@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../style/device';
 
 export const ShareSectionStyle = styled.section`
   display: flex;
@@ -12,6 +13,13 @@ export const ShareSectionStyle = styled.section`
     text-align: center;
     color: #888888;
     padding: 0 10px;
+  }
+
+  .shareForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 
   .inputsContainer{
@@ -28,5 +36,11 @@ export const ShareSectionStyle = styled.section`
 
   .btn{
     margin-top: 1rem;
+  }
+
+  @media ${device.tablet} {
+    .inputsContainer{
+      flex-direction: row
+    }
   }
 `;
