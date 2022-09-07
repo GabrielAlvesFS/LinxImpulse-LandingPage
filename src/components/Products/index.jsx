@@ -12,7 +12,6 @@ export function Products() {
     const res = await fetch(url).then((data) => data.json());
     setPage(page + 1);
     setProduct([...product, ...res.products]);
-    console.log(product);
   };
 
   useEffect(() => {
