@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import { device } from '../../style/device';
 
 export const Card = styled.div`
   width: fit-content;
@@ -43,4 +44,14 @@ export const Card = styled.div`
     text-align: left;
     color: #888888;
   }
-`
+
+  @media ${device.tablet} {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .imageContainer{
+      width: 200px;
+      height: 150px;
+    }
+  }
+`;
