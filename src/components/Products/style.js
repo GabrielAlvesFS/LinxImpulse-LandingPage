@@ -23,4 +23,16 @@ export const ProductStyle = styled.main`
       justify-content: center;
     }
   }
+
+  @media ${device.laptop}{
+    .box{
+      grid-template-columns: repeat(3, 200px);
+    }
+  }
+
+  @media ${device.laptopL}{
+    .box{
+      grid-template-columns: repeat(4, 200px);
+    }
+  }
 `;
