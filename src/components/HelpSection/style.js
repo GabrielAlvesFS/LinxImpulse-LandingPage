@@ -1,13 +1,28 @@
 import styled from 'styled-components';
+import { device } from '../../style/device';
 
 export const HelpSectionContainer = styled.section`
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  @media ${device.tablet} {
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      margin: 0;
+      width: fit-content;
+    }
+  }
 `;
 
 export const HelpTextContainer = styled.div`
+  max-width: 520px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
