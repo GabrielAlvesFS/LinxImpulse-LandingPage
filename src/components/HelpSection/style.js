@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HelpSectionContainer = styled.section`
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
-`
+`;
 
 export const HelpTextContainer = styled.div`
   display: flex;
@@ -28,7 +28,7 @@ export const HelpTextContainer = styled.div`
     flex-direction: column;
     gap: 1.4rem;
   }
-`
+`;
 export const HelpFormContainer = styled.form`
   width: 100%;
   height: fit-content;
@@ -55,11 +55,10 @@ export const HelpFormContainer = styled.form`
   .radioContainer :nth-child(2){
     margin-right: 50px;
   }
-`
+`;
 
 export const InputLabel = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-`
-
+`;

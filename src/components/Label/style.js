@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Label = styled.label`
   font-size: 0.8rem;
@@ -6,4 +6,4 @@ export const Label = styled.label`
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
-`
+`;

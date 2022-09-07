@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ShareSectionStyle = styled.section`
   display: flex;
@@ -29,4 +29,4 @@ export const ShareSectionStyle = styled.section`
   .btn{
     margin-top: 1rem;
   }
-`
+`;

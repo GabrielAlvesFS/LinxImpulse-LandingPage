@@ -1,7 +1,7 @@
-import { Label } from "../Label/style";
-import { Input } from "../Input/style";
-import { Button } from "../Button/style";
-import { ShareSectionStyle } from "./style";
+import { Label } from '../Label/style';
+import { Input } from '../Input/style';
+import { Button } from '../Button/style';
+import { ShareSectionStyle } from './style';
 
 export function ShareSection() {
   return (
@@ -11,16 +11,15 @@ export function ShareSection() {
       <div className="inputsContainer">
         <div>
           <Label>Nome do seu amigo:</Label>
-          <Input width={360}></Input>
+          <Input width={360} />
         </div>
         <div>
           <Label>E-mail:</Label>
-          <Input width={360}></Input>
+          <Input width={360} />
         </div>
       </div>
 
       <Button width={260} className="btn">Enviar agora</Button>
     </ShareSectionStyle>
-  )
-
+  );
 }

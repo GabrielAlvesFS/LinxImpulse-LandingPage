@@ -1,4 +1,4 @@
-import { FooterStyle } from "./style"
+import { FooterStyle } from './style';
 
 export function Footer() {
   return (
@@ -9,5 +9,5 @@ export function Footer() {
         <p>2022</p>
       </div>
     </FooterStyle>
-  )
+  );
 }
