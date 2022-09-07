@@ -8,10 +8,10 @@ export const Card = styled.div`
   align-items: center;
   gap: 1rem;
   margin-top: 1.5rem;
+
   .imageContainer{
     width: 170px;
     height: 130px;
-    border: 1px solid #888888;
   }
 
   .imageContainer img{
