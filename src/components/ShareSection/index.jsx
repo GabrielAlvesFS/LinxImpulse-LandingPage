@@ -8,18 +8,21 @@ export function ShareSection() {
     <ShareSectionStyle>
       <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
 
-      <div className="inputsContainer">
-        <div>
-          <Label>Nome do seu amigo:</Label>
-          <Input width={360} />
+      <form className="shareForm">
+        <div className="inputsContainer">
+          <div>
+            <Label>Nome do seu amigo:</Label>
+            <Input width={360} required />
+          </div>
+          <div>
+            <Label>E-mail:</Label>
+            <Input width={360} required />
+          </div>
         </div>
-        <div>
-          <Label>E-mail:</Label>
-          <Input width={360} />
-        </div>
-      </div>
 
-      <Button width={260} className="btn">Enviar agora</Button>
+        <Button width={260} className="btn" type="submit">Enviar agora</Button>
+      </form>
+
     </ShareSectionStyle>
   );
 }
