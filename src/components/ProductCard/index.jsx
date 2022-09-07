@@ -2,7 +2,7 @@ import { Button } from '../Button/style';
 import { Card } from './style';
 
 export function ProductCard({
-  image, name, oldPrice, newPrice, price,
+  image, name, desc, oldPrice, newPrice, price,
 }) {
   return (
     <Card>
@@ -11,6 +11,7 @@ export function ProductCard({
       </div>
       <div className="infoContainer">
         <p className="productName">{name}</p>
+        <span className="desc">{desc}</span>
         <span className="oldPrice">{oldPrice}</span>
         <p className="newPrice">{newPrice}</p>
         <span className="price">{price}</span>
