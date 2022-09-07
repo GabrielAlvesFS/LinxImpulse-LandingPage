@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../style/device';
 
 export const HeaderContainer = styled.header`
   width: 100%;
@@ -51,6 +52,10 @@ export const HeaderTitulos = styled.div`
     font-size: 14px;
     margin-top: 10px;
     font-weight: 400;
+  }
+
+  @media ${device.tablet} {
+    text-align: center;
   }
 `;
 
