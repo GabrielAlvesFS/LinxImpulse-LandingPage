@@ -31,7 +31,7 @@ export const ProductStyle = styled.main`
   }
 
   @media ${device.laptopL}{
-    .box{
+    .boxi{
       grid-template-columns: repeat(4, 200px);
     }
   }
