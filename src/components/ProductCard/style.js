@@ -8,7 +8,6 @@ export const Card = styled.div`
   align-items: center;
   gap: 1rem;
   margin-top: 1.5rem;
-
   .imageContainer{
     width: 170px;
     height: 130px;
@@ -28,6 +27,13 @@ export const Card = styled.div`
 
   .infoContainer .productName{
     font-size: 14px;
+    text-align: left;
+    color: #888888;
+  }
+
+  .infoContainer .desc{
+    display: none;
+    font-size: 12px;
     text-align: left;
     color: #888888;
   }
@@ -52,6 +58,10 @@ export const Card = styled.div`
     .imageContainer{
       width: 200px;
       height: 150px;
+    }
+
+    .infoContainer .desc{
+      display: inline;
     }
   }
 `;
