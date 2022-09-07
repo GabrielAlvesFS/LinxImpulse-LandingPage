@@ -1,7 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const DividerStyle = styled.div`
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1.5rem;
   margin-top: 5rem;
@@ -13,8 +15,8 @@ export const DividerStyle = styled.div`
   }
 
   .line{
-    width: 100%;
+    width: 400px;
     height: 1px;
     background-color: #707070;
   }
-`
+`;
