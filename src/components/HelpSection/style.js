@@ -13,11 +13,17 @@ export const HelpSectionContainer = styled.section`
     padding: 15px;
     align-items: center;
     justify-content: center;
+    gap: 2.5rem;
 
     form {
       margin: 0;
       width: fit-content;
     }
+  }
+
+  @media ${device.laptop} {
+    /* padding: 0; */
+    gap: 8rem;
   }
 `;
 
@@ -43,7 +49,12 @@ export const HelpTextContainer = styled.div`
     flex-direction: column;
     gap: 1.4rem;
   }
+
+  @media ${device.tablet} {
+    padding: 0;
+  }
 `;
+
 export const HelpFormContainer = styled.form`
   width: 100%;
   height: fit-content;
